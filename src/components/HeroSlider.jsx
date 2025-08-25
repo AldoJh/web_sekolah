@@ -46,10 +46,10 @@ export default function HeroSlider() {
             className="w-full h-full bg-cover bg-center flex flex-col justify-center items-center text-white px-4"
             style={{ backgroundImage: `url(${slide.image})` }}
           >
-            <h1 className="text-5xl font-bold mb-4 text-center drop-shadow-lg">
+            <h1 className="text-5xl font-bold mb-4 text-center drop-shadow-lg text-black">
               {slide.title}
             </h1>
-            <p className="text-xl mb-6 text-center drop-shadow">
+            <p className="text-xl mb-6 text-center drop-shadow text-black">
               {slide.subtitle}
             </p>
             {/* <button className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg shadow-md transition">
